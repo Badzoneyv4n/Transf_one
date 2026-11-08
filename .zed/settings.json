@@ -1,0 +1,26 @@
+{
+  "languages": {
+    "Python": {
+      "format_on_save": "on",
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+      },
+      "formatter": [
+        {
+          "language_server": {
+            "name": "ruff",
+          },
+        },
+      ],
+    },
+  },
+  "lsp": {
+    "basedpyright": {
+      "settings": {
+        "python": {
+          "pythonPath": ".venv/bin/python",
+        },
+      },
+    },
+  },
+}
